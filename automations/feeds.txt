@@ -1,0 +1,6 @@
+https://hnrss.org/frontpage
+https://feeds.arstechnica.com/arstechnica/technology-lab
+https://www.artificialintelligence-news.com/feed/
+https://openai.com/blog/rss.xml
+https://www.anthropic.com/rss/latest-research.xml
+https://claude.ai/blog/rss.xml

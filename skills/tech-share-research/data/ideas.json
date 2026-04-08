@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ee031dc3-d039-4e5e-b985-37dff650067c",
+    "content": "测试想法：今天参加 OpenClaw 技术分享，了解到技能工作流的设计模式",
+    "tags": [
+      "OpenClaw，技能设计"
+    ],
+    "source": "OpenClaw 技术分享会",
+    "status": "backlog",
+    "priority": "high",
+    "created_at": "2026-03-22T14:45:37.477089",
+    "updated_at": "2026-03-22T14:45:37.477101",
+    "research_notes": null
+  },
+  {
+    "id": "c9b156f1-2095-444f-acd2-f736c7e0abc6",
+    "content": "OpenClaw 技术分享会 - 图片记录（见附件）",
+    "tags": [
+      "OpenClaw，技术分享会"
+    ],
+    "source": "OpenClaw 技术分享会 2026-03-22",
+    "status": "backlog",
+    "priority": "medium",
+    "created_at": "2026-03-22T14:48:21.982903",
+    "updated_at": "2026-03-22T14:48:21.982910",
+    "research_notes": null,
+    "attachments": [
+      "data/attachments/c9b156f1.jpg"
+    ]
+  },
+  {
+    "id": "d6be80c8-1b78-4b32-91e6-c5a00d5c24ee",
+    "content": "阿里云 RDS 技术分享 - 关于记忆部分的处理（见附件图片）",
+    "tags": [
+      "阿里云，RDS，记忆处理，数据库"
+    ],
+    "source": "技术分享会 2026-03-22",
+    "status": "backlog",
+    "priority": "medium",
+    "created_at": "2026-03-22T16:07:54.875097",
+    "updated_at": "2026-03-22T16:07:54.875106",
+    "research_notes": null,
+    "attachments": [
+      "data/attachments/d6be80c8.jpg"
+    ]
+  }
+]

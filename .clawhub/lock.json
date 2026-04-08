@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "cron": {
+      "version": "1.0.0",
+      "installedAt": 1774551043740
+    },
+    "openclaw-skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774578962555
+    },
+    "excalidraw-diagram-generator": {
+      "version": "1.0.0",
+      "installedAt": 1774613437666
+    },
+    "mermaid-architect": {
+      "version": "1.0.0",
+      "installedAt": 1774613656019
+    },
+    "mermaid-image-generator": {
+      "version": "1.0.0",
+      "installedAt": 1774613683106
+    },
+    "image-search": {
+      "version": "1.0.0",
+      "installedAt": 1774697919269
+    },
+    "smart-image-search": {
+      "version": "0.1.0",
+      "installedAt": 1774700540873
+    },
+    "opencli-tool": {
+      "version": "1.0.0",
+      "installedAt": 1774723021836
+    },
+    "rss-feed-digest": {
+      "version": "1.0.0",
+      "installedAt": 1774920344092
+    }
+  }
+}

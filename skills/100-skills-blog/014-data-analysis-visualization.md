@@ -1,6 +1,6 @@
-# 100 个 OpenClaw Skills 系列 #13：数据分析与可视化技能
+# 100 个 OpenClaw Skills 系列 #14：数据分析与可视化技能
 
-> **发布日期：** 2026-04-10  
+> **发布日期：** 2026-04-11  
 > **安全等级：** 🟡 MEDIUM  
 > **关键词：** 数据分析，可视化，pandas, matplotlib, Python
 

@@ -11,7 +11,7 @@
 - **What:** Search ClawHub popular skills, write and publish one skill blog post
 - **Format:** Follow the template in memory/cron-skill-blog-workflow.md
 - **Started:** 2026-03-27
-- **Progress:** 13/100 published (13%)
+- **Progress:** 14/100 published (14%)
 - **Published:**
   - #01: skill-vetter (2026-03-27) - 🟢 LOW
   - #02: summarize (2026-03-28) - 🟢 LOW
@@ -24,8 +24,8 @@
   - #09: text-to-image-search (2026-04-04) - 🟡 MEDIUM
   - #10: find-skills (2026-04-07) - 🟢 LOW
   - #11: notion (2026-04-08) - 🟡 MEDIUM
-  - #12: github-automation (2026-04-09) - 🟡 MEDIUM
-  - #13: data-analysis-visualization (2026-04-10) - 🟡 MEDIUM
+  - #12: excalidraw-diagram-generator (2026-04-09) - 🟡 MEDIUM
+  - #13: xiaohongshu (2026-04-10) - 🟡 MEDIUM
 - **Next:** #14 (明天发布)
 
 ### Technical Research Articles

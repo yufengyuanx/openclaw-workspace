@@ -36,6 +36,10 @@
     "rss-feed-digest": {
       "version": "1.0.0",
       "installedAt": 1774920344092
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1775819843341
     }
   }
 }

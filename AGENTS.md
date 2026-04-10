@@ -12,22 +12,28 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read today + yesterday's daily notes from Obsidian
+4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md` from Obsidian
 
 Don't ask permission. Just do it.
 
-## Memory
+## Memory (Obsidian)
+
+📍 **Memory is now stored in Obsidian Vault**
+
+**Vault:** `OpenClaw-Memory`  
+**Path:** `/Users/frankyuan/Documents/ObsidianVaults/OpenClaw-Memory`
 
 You wake up fresh each session. These files are your continuity:
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Daily notes:** `04-Daily-Notes/YYYY-MM-DD.md` — raw logs of what happened
+- **Long-term:** `02-Knowledge-Base/MEMORY.md` — your curated memories, like a human's long-term memory
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
 ### 🧠 MEMORY.md - Your Long-Term Memory
 
+- **Location:** `02-Knowledge-Base/MEMORY.md` in Obsidian Vault
 - **ONLY load in main session** (direct chats with your human)
 - **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)
 - This is for **security** — contains personal context that shouldn't leak to strangers
@@ -35,6 +41,23 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Write significant events, thoughts, decisions, opinions, lessons learned
 - This is your curated memory — the distilled essence, not raw logs
 - Over time, review your daily files and update MEMORY.md with what's worth keeping
+
+### 🛠️ Using obsidian-cli
+
+```bash
+# Read default vault
+obsidian-cli print-default --path-only
+
+# Search notes
+obsidian-cli search "query"
+obsidian-cli search-content "query"
+
+# Create note
+obsidian-cli create "Folder/New note" --content "..."
+
+# Move/rename (updates links)
+obsidian-cli move "old/path" "new/path"
+```
 
 ### 📝 Write It Down - No "Mental Notes"!
 

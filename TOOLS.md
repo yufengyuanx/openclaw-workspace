@@ -13,6 +13,28 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+---
+
+## 💎 Obsidian Vault
+
+**Vault Name:** `OpenClaw-Memory`  
+**Path:** `/Users/frankyuan/Documents/ObsidianVaults/OpenClaw-Memory`
+
+**Structure:**
+```
+OpenClaw-Memory/
+├── 02-Knowledge-Base/
+│   └── MEMORY.md          # Long-term memory
+├── 04-Daily-Notes/
+│   └── YYYY-MM-DD.md      # Daily logs
+├── 01-Session-Logs/
+├── 03-Projects/
+├── 05-People/
+└── 06-Archive/
+```
+
+**CLI:** `obsidian-cli` (installed via Homebrew)
+
 ## Examples
 
 ```markdown

@@ -235,4 +235,4 @@ command: |
 
 ---
 
-*下一篇预告：#14 - 测试自动化技能 (pytest/Selenium)*
+*下一篇预告：#15 - 测试自动化技能 (pytest/Selenium)*

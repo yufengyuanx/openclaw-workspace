@@ -15,8 +15,9 @@ Things like:
 
 ---
 
-## 💎 Obsidian Vault
+## 💎 Obsidian Vaults
 
+### 主记忆 Vault
 **Vault Name:** `OpenClaw-Memory`  
 **Path:** `/Users/frankyuan/Documents/ObsidianVaults/OpenClaw-Memory`
 
@@ -32,6 +33,25 @@ OpenClaw-Memory/
 ├── 05-People/
 └── 06-Archive/
 ```
+
+### 调研记忆 Vault
+**Vault Name:** `OpenClaw-Research-Memory`  
+**Path:** `/Users/frankyuan/Documents/ObsidianVaults/OpenClaw-Research-Memory`
+
+**Structure:**
+```
+OpenClaw-Research-Memory/
+├── 00-INDEX.md              # 索引和模板
+├── README.md                # 使用说明
+├── 01-AI-Frameworks/        # AI 框架调研（Hermes, LangChain...）
+├── 02-Skills-Research/      # OpenClaw Skills 调研
+├── 03-Tools-Analysis/       # 工具对比分析
+├── 04-Technical-Reports/    # 技术深度报告
+├── 05-Market-Research/      # 市场和竞品调研
+└── 06-Archive/              # 已归档内容
+```
+
+**用途**: Researcher 智能体专用，存储所有调研报告和分析结果
 
 **CLI:** `obsidian-cli` (installed via Homebrew)
 

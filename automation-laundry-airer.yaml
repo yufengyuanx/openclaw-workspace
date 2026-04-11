@@ -1,0 +1,45 @@
+# 洗衣完成自动降衣架 + 开灯
+# 使用方法：将此配置添加到 Home Assistant 的 automations.yaml 或通过 UI 导入
+
+alias: "🧺 洗衣完成自动降衣架"
+description: "当洗衣机（上桶或下桶）洗涤完成后，自动将晾衣架下降到 50% 位置并打开照明"
+trigger:
+  - platform: event
+    event_type: xiaomi_event
+    event_data:
+      entity_id: event.mibx5_cn_857274131_v05_wash_end_e_12_1
+    id: "upper_wash_end"
+  - platform: event
+    event_type: xiaomi_event
+    event_data:
+      entity_id: event.mibx5_cn_857274131_v05_wash_end_e_13_1
+    id: "lower_wash_end"
+condition: []
+action:
+  # 1. 晾衣架下降到 50% 位置
+  - service: cover.set_cover_position
+    target:
+      entity_id: cover.xiaomi_cn_2034022030_pro2_s_2_airer
+    data:
+      position: 50
+  
+  # 2. 打开照明灯
+  - service: light.turn_on
+    target:
+      entity_id: light.xiaomi_cn_2034022030_pro2_s_3_light
+    data:
+      brightness_pct: 80
+      color_temp_kelvin: 4000
+  
+  # 3. 发送通知
+  - service: persistent_notification.create
+    data:
+      title: "🧺 洗衣完成"
+      message: |
+        洗衣已完成！
+        
+        ✅ 晾衣架已下降到 50% 位置
+        💡 照明灯已打开
+        
+        触发来源：{{ trigger.event.data.entity_id }}
+mode: single

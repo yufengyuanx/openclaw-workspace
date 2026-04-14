@@ -27,6 +27,7 @@ OpenClaw-Skills-Blog/
 │   ├── 016-smart-home-automation.md
 │   └── 017-coding-agent.md
 │
+├── 📄 skill-blog-state.json   # 状态追踪文件
 └── 📂 logs/                 # 执行日志 (18 个)
     ├── README.md
     ├── 2026-04-15-migration.md
@@ -43,18 +44,21 @@ OpenClaw-Skills-Blog/
 | 总进度 | 17/100 (17%) |
 | 保留文件 | 5 个 |
 | 执行日志 | 18 个 |
-| 下一篇 | #18 (待确定) |
+| 下一篇 | #18 |
 | 状态 | 🟢 运行中 |
+| Git 仓库 | ✅ 已初始化 |
+| 监督机制 | ✅ 已启用 |
 
 ---
 
 ## 🤖 自动化
 
 ### Cron 任务
-- **时间**: 每天 08:00 (Asia/Shanghai)
-- **执行者**: skill-blogger-100 子智能体
-- **工作流**: 10 步流程
-- **通知**: 微信推送
+
+| 任务 | 时间 | 执行者 | 说明 |
+|------|------|--------|------|
+| skill-blogger-100 | 08:00 | 子智能体 | 发布 Skill Blog |
+| skill-blog-监督 | 09:30 | 主智能体 | 检查执行情况 |
 
 ### 查看状态
 ```bash
@@ -63,6 +67,9 @@ openclaw cron list
 
 # 查看进度
 cat agent-config.json | jq .progress
+
+# 查看状态文件
+cat skill-blog-state.json | jq
 
 # 查看最新日志
 tail -50 logs/skill-blog-log-*.md

@@ -67,11 +67,18 @@
   
   "notification": {
     "channel": "wechat",
+    "target": "o9cq80wSi_GdWvGFFwx5cQD_AUIo@im.wechat",
     "onSuccess": true,
-    "onFailure": true
+    "onFailure": true,
+    "command": "openclaw message send --channel openclaw-weixin --target \"{target}\" --message \"{message}\""
   },
   
   "status": "active",
   "lastRun": null,
-  "lastStatus": null
+  "lastStatus": null,
+  "supervisor": {
+    "enabled": true,
+    "checkTime": "09:30",
+    "timeoutAlert": true
+  }
 }

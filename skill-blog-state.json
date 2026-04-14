@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-04-15T01:55:00+08:00",
+  
+  "lastCheck": "2026-04-15T01:55:00+08:00",
+  "lastStatus": "initialized",
+  "lastPublished": 17,
+  "lastDate": "2026-04-14",
+  "lastSkill": "coding-agent",
+  
+  "consecutiveSuccess": 0,
+  "consecutiveFailures": 0,
+  "lastError": null,
+  "lastErrorDate": null,
+  
+  "nextRun": "2026-04-16T08:00:00+08:00",
+  "nextNumber": 18,
+  
+  "supervisor": {
+    "enabled": true,
+    "lastCheck": null,
+    "lastCheckResult": null
+  }
+}

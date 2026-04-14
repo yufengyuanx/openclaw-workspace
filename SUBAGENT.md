@@ -45,6 +45,12 @@ openclaw subagents list
 
 # 查看最新日志
 cat ~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/logs/2026-04-*.md | tail -50
+
+# 检查当前进度
+cat ~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/agent-config.json | jq .progress
+
+# 检查状态文件
+cat ~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/skill-blog-state.json
 ```
 
 ## 手动触发

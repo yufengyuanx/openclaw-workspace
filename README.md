@@ -18,10 +18,12 @@
 ## 文件结构
 
 ```
-OpenClaw-Skills-Blog/
+skills/100-skills-blog/
 ├── README.md              # 本文件
 ├── agent-config.json      # 子智能体配置和状态
+├── skill-blog-state.json  # 状态追踪
 ├── workflow.md            # 执行工作流
+├── SUPERVISOR.md          # 监督机制
 ├── 012-github-automation.md
 ├── 014-data-analysis-visualization.md
 ├── 015-test-automation.md
@@ -50,14 +52,15 @@ OpenClaw-Skills-Blog/
 - ✅ 发送完成通知
 
 ### 主智能体
-- ✅ 监督子智能体运行
+- ✅ 监督子智能体运行 (09:30 检查)
 - ✅ 每周检查进度
 - ✅ 处理异常情况
 
 ## 相关文档
 
-- [[../../03-Projects/Skill-Blog-100/index]] - 项目索引
+- [[../../../../../Documents/ObsidianVaults/OpenClaw-Memory/03-Projects/Skill-Blog-100/index]] - 项目索引
 - [[workflow]] - 详细工作流
+- [[SUPERVISOR]] - 监督机制
 
 ---
 _最后更新：2026-04-15_

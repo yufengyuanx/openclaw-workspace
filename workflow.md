@@ -1,6 +1,6 @@
 # Skill Blog 工作流
 
-**项目位置**: `~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/`
+**项目位置**: `~/.openclaw/workspace/skills/100-skills-blog/`
 
 ---
 
@@ -24,7 +24,7 @@
 ## Step 1: 确认下一篇编号
 
 **操作：**
-- 读取 `~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/agent-config.json`
+- 读取 `~/.openclaw/workspace/skills/100-skills-blog/agent-config.json`
 - 确认 `progress.nextNumber`
 - 验证编号连续
 
@@ -65,7 +65,7 @@
 **操作：**
 - 按照模板格式撰写
 - 包含：概述、核心技能、安全评估、实战案例
-- **文件路径**: `~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/{number}-{skill}.md`
+- **文件路径**: `~/.openclaw/workspace/skills/100-skills-blog/{number}-{skill}.md`
 
 **验证：**
 - ✅ 草稿完整
@@ -104,7 +104,7 @@
 
 **操作：**
 ```bash
-cd ~/Documents/ObsidianVaults/OpenClaw-Skills-Blog
+cd ~/.openclaw/workspace/skills/100-skills-blog
 git add {number}-{skill}.md
 git commit -m "[100-skills] #{number}: {skill}"
 git push origin main
@@ -119,7 +119,7 @@ git push origin main
 ## Step 8: 更新进度追踪
 
 **操作：**
-- 更新 `~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/agent-config.json`:
+- 更新 `~/.openclaw/workspace/skills/100-skills-blog/agent-config.json`:
   - `progress.published++`
   - `progress.lastPublished = number`
   - `progress.lastDate = today`
@@ -170,7 +170,7 @@ git push origin main
 
 ## 日志格式
 
-记录到 `~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/logs/YYYY-MM-DD.md`：
+记录到 `~/.openclaw/workspace/skills/100-skills-blog/logs/YYYY-MM-DD.md`：
 
 ```markdown
 # Skill Blog Log - YYYY-MM-DD
@@ -197,7 +197,7 @@ git push origin main
 - **安全等级：** 🟢 LOW / 🟡 MEDIUM
 - **发布日期：** YYYY-MM-DD
 - **Git Commit:** abc123
-- **文件路径：** ~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/{number}-{skill}.md
+- **文件路径：** ~/.openclaw/workspace/skills/100-skills-blog/{number}-{skill}.md
 
 **状态：** ✅ 全部成功
 ```
@@ -246,7 +246,7 @@ Git Commit: {commit-hash}
 
 步骤：Step {N} - {step-name}
 错误：{error-message}
-请检查日志：~/Documents/ObsidianVaults/OpenClaw-Skills-Blog/logs/{date}.md
+请检查日志：~/.openclaw/workspace/skills/100-skills-blog/logs/{date}.md
 ```
 
 ---

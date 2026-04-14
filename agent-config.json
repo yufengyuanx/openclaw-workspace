@@ -1,0 +1,77 @@
+{
+  "project": "100-skills-blog",
+  "version": "2.0",
+  "location": "/Users/frankyuan/Documents/ObsidianVaults/OpenClaw-Skills-Blog",
+  "migratedAt": "2026-04-15T01:50:00+08:00",
+  
+  "progress": {
+    "total": 100,
+    "published": 17,
+    "retained": 5,
+    "percentage": 17,
+    "lastPublished": 17,
+    "lastDate": "2026-04-14",
+    "lastSkill": "coding-agent",
+    "nextNumber": 18,
+    "nextSkill": "tbd"
+  },
+  
+  "retainedFiles": [
+    {
+      "number": 12,
+      "skill": "github-automation",
+      "date": "2026-04-09",
+      "file": "012-github-automation.md",
+      "safetyLevel": "MEDIUM"
+    },
+    {
+      "number": 14,
+      "skill": "data-analysis-visualization",
+      "date": "2026-04-11",
+      "file": "014-data-analysis-visualization.md",
+      "safetyLevel": "MEDIUM"
+    },
+    {
+      "number": 15,
+      "skill": "test-automation",
+      "date": "2026-04-12",
+      "file": "015-test-automation.md",
+      "safetyLevel": "MEDIUM"
+    },
+    {
+      "number": 16,
+      "skill": "smart-home-automation",
+      "date": "2026-04-13",
+      "file": "016-smart-home-automation.md",
+      "safetyLevel": "LOW"
+    },
+    {
+      "number": 17,
+      "skill": "coding-agent",
+      "date": "2026-04-14",
+      "file": "017-coding-agent.md",
+      "safetyLevel": "MEDIUM"
+    }
+  ],
+  
+  "archivedSkills": [
+    {"numbers": "1-11", "reason": "早期版本，技能精简时归档", "dateRange": "2026-03-27 至 04-08"},
+    {"number": 13, "skill": "xiaohongshu", "reason": "功能由 opencli 覆盖", "date": "2026-04-10"}
+  ],
+  
+  "schedule": {
+    "publishTime": "09:00",
+    "timezone": "Asia/Shanghai",
+    "cronExpression": "0 8 * * *"
+  },
+  
+  "notification": {
+    "channel": "wechat",
+    "onSuccess": true,
+    "onFailure": true
+  },
+  
+  "status": "active",
+  "lastRun": null,
+  "lastStatus": null
+}

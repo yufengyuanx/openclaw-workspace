@@ -6,13 +6,13 @@
   
   "progress": {
     "total": 100,
-    "published": 17,
-    "retained": 5,
-    "percentage": 17,
-    "lastPublished": 17,
-    "lastDate": "2026-04-14",
-    "lastSkill": "coding-agent",
-    "nextNumber": 18,
+    "published": 18,
+    "retained": 6,
+    "percentage": 18,
+    "lastPublished": 18,
+    "lastDate": "2026-04-15",
+    "lastSkill": "weather",
+    "nextNumber": 19,
     "nextSkill": "tbd"
   },
   
@@ -51,6 +51,13 @@
       "date": "2026-04-14",
       "file": "017-coding-agent.md",
       "safetyLevel": "MEDIUM"
+    },
+    {
+      "number": 18,
+      "skill": "weather",
+      "date": "2026-04-15",
+      "file": "018-weather.md",
+      "safetyLevel": "LOW"
     }
   ],
   
